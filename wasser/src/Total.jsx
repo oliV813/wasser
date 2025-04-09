@@ -10,7 +10,7 @@ const Total = () => {
     // Alle Daten bekommen ohne Duplikate
     const getAllDates = async () => {
         try {
-            const response = await fetch('http://localhost:3001/all')
+            const response = await fetch('https://wasser.onrender.com/all')
 
             const result = await response.json()
             console.log(result)
